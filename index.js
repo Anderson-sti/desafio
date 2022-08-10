@@ -1,0 +1,1 @@
+prompt("x=2 e y=5 \n x + Y = \n + \n x . y = \n RESULTADO? ")
