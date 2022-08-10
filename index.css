@@ -58,18 +58,15 @@ span {
     background: black;
 }
 .px {
-    visibility:hidden;
-}
-.flex {
-    display: flex;
+    visibility: hidden;
 }
 @media all and (max-width: 888px){
     .px {
-        display: flex;
         visibility: visible;
     }
     img {
-        width: 250px;  
+        margin: 0 20rem;
+        width: 250px; 
     }
 }
 @media all and (max-width: 887px){
