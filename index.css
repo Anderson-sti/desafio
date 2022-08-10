@@ -65,6 +65,7 @@ span {
 }
 @media all and (max-width: 888px){
     .px {
+        display: flex;
         visibility: visible;
     }
     img {
