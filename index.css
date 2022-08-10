@@ -76,3 +76,34 @@ span {
         display: none;
     }
 }
+.virus{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    animation: virus 5s infinite;
+}
+@keyframes virus {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 0px;
+        left: 78rem;
+    }
+    50% {
+        top: 29rem;
+        left: 0px;
+    }
+    75% {
+        top: 29rem;
+        left: 78rem;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
