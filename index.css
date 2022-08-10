@@ -58,14 +58,14 @@ span {
     background: black;
 }
 .px {
-    display: none;
+    visibility:hidden;
 }
 .flex {
     display: flex;
 }
 @media all and (max-width: 888px){
     .px {
-        display: flex;
+        visibility: visible;
     }
     img {
         width: 250px;  
